@@ -4,3 +4,51 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+header{
+    position: fixed;
+    background-color: white;
+    height: 75px;
+    width: 100%;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh ;
+    display: flex;
+}
+
+aside{
+    width: 75px;
+    height: 100%;
+    background-color: red;
+    padding-top: 75px;
+}
+
+main{
+    width: calc(100vw - 75px);
+    height: 100%;
+    background-color: blue;
+}
+
+.topbar{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    padding-top: 75px;
+}
+
+/***********************************
+            MEDIAQUERY
+************************************/
+
+@media screen and (min-width: 768px){
+
+    aside{
+        width: 150px;
+    }
+
+    main{
+        width: calc(100vw - 150px);
+    }
+}
