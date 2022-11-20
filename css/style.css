@@ -5,19 +5,42 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/********* BLOCKS *********/
+
 .wrapper{
     width: 100vw;
     height: 100vh ;
     display: flex;
 }
 
-/* header */
-
 header{
     position: fixed;
     background-color: white;
     width: 100%;
 }
+
+aside{
+    width: 75px;
+    height: 100%;
+    background-color: rgba(5,30,52,255);
+    padding-top: 75px;
+    font-size: 20px;
+    color: white;
+}
+
+main{
+    width: calc(100vw - 75px);
+    height: 100%;
+}
+
+.topbar{
+    width: 100%;
+    background-color: rgba(27,114,232,255);
+    padding: 80px 5px 5px 5px;
+    color: white;
+}
+
+/********** HEADER CONTENTS **********/
 
 .logo-sm{
     width: 40px;
@@ -37,35 +60,34 @@ header{
     color: orange;
 }
 
-/* sidebar */
-
-aside{
-    width: 75px;
-    height: 100%;
-    background-color: red;
-    padding-top: 75px;
-    font-size: 20px;
-    color: white;
-}
+/********** SIDEBAR CONTENTS **********/
 
 .aside-text{
     display: none;
+    font-size: 18px;
 }
 
-/* main */
+/********* MAIN CONTENTS **********/
 
-main{
-    width: calc(100vw - 75px);
-    height: 100%;
-    background-color: blue;
+.btn-topbar{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.20);
+    border-style: none;
+    border-radius: 1rem;
+    padding: 2px 5px;
+    margin: 3px 3px;
+    font-size: 12px;
 }
 
-.topbar{
-    height: 200px;
-    width: 100%;
-    background-color: black;
-    padding-top: 75px;
+.btn-canvas{
+    color: white;
+    background-color: transparent;
+    padding: 4px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 0px 5px 0px 20px;
 }
+
 
 /***********************************
             MEDIAQUERY
