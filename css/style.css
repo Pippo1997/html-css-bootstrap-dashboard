@@ -5,18 +5,39 @@
     font-family: 'Roboto', sans-serif;
 }
 
-header{
-    position: fixed;
-    background-color: white;
-    height: 75px;
-    width: 100%;
-}
-
 .wrapper{
     width: 100vw;
     height: 100vh ;
     display: flex;
 }
+
+/* header */
+
+header{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+.logo-sm{
+    width: 40px;
+    display: block;
+}
+
+.logo{
+    display: none;
+}
+
+.icon-nav i{
+    display: none;
+    cursor: pointer;
+}
+
+.fa-bell{
+    color: orange;
+}
+
+/* sidebar */
 
 aside{
     width: 75px;
@@ -42,6 +63,8 @@ main{
             MEDIAQUERY
 ************************************/
 
+/* tablet */
+
 @media screen and (min-width: 768px){
 
     aside{
@@ -51,4 +74,23 @@ main{
     main{
         width: calc(100vw - 150px);
     }
+
+    .logo-sm{
+        display: none;
+    }
+    
+    .logo{
+        display: block;
+    }
+
+}
+
+/* desktop */
+
+@media screen and (min-width: 991px){
+
+    .icon-nav i{
+        display: block;
+    }
+
 }
