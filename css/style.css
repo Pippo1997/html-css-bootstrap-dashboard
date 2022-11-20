@@ -44,7 +44,15 @@ aside{
     height: 100%;
     background-color: red;
     padding-top: 75px;
+    font-size: 20px;
+    color: white;
 }
+
+.aside-text{
+    display: none;
+}
+
+/* main */
 
 main{
     width: calc(100vw - 75px);
@@ -67,6 +75,18 @@ main{
 
 @media screen and (min-width: 768px){
 
+
+
+}
+
+/* desktop */
+
+@media screen and (min-width: 991px){
+
+    .logo-sm{
+        display: none;
+    }
+
     aside{
         width: 150px;
     }
@@ -75,21 +95,7 @@ main{
         width: calc(100vw - 150px);
     }
 
-    .logo-sm{
-        display: none;
-    }
-    
-    .logo{
-        display: block;
-    }
-
-}
-
-/* desktop */
-
-@media screen and (min-width: 991px){
-
-    .icon-nav i{
+    .logo, .icon-nav i, .aside-text{
         display: block;
     }
 
