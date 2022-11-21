@@ -96,6 +96,14 @@ main{
     margin: 0px 5px 0px 20px;
 }
 
+#offcanvasRight{
+    width: 100%;
+}
+
+.margin{
+    margin-bottom: 0.5rem;
+}
+
 .weight{
     font-weight: 400;
 }
@@ -148,6 +156,10 @@ table img{
 
     .logo, .icon-nav i, .aside-text{
         display: block;
+    }
+
+    #offcanvasRight{
+        width: 800px;
     }
 
 }
