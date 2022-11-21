@@ -56,17 +56,17 @@
             <aside>
                 <div class="p-3 d-flex flex-column text-center justify-content-between h-100">
                     <div class="d-flex flex-column">
-                        <div class="d-flex justify-content-around align-items-center">
+                        <div class="d-flex justify-content-around align-items-center hover">
                             <i class="fa-solid fa-house py-2"></i> <span class="aside-text">Home</span>
                         </div>
-                        <div class="d-flex justify-content-around align-items-center">
+                        <div class="d-flex justify-content-around align-items-center hover">
                             <i class="fa-solid fa-chart-simple py-2"></i> <span class="aside-text">Stats</span>
                         </div>
-                        <div class="d-flex justify-content-around align-items-center">
+                        <div class="d-flex justify-content-around align-items-center hover">
                             <i class="fa-solid fa-signal py-2"></i> <span class="aside-text">Signal</span>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-around align-items-center">
+                    <div class="d-flex justify-content-around align-items-center hover">
                         <i class="fa-solid fa-gear py-2"></i> <span class="aside-text">Admin</span>
                     </div>
                 </div>
@@ -86,7 +86,7 @@
                                 <button class="btn-canvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"  aria-controls="offcanvasRight">
                                     <i class="fa-solid fa-plus"></i>
                                 </button>
-                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas offcanvas-end offcanvas-size-xl" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                     <div class="offcanvas-header">
                                         <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
@@ -102,7 +102,7 @@
                           </div>
                           <div class="col-12 col-md-6 p-2 order-md-1">
                             <div class="d-flex align-items-center">
-                                <h3>Boolean</h3>
+                                <h3 class="weight">Boolean</h3>
                                 <button class="btn-topbar">Piano blaze</button>
                             </div>
                             <div class="d-flex align-items-center">
@@ -117,7 +117,7 @@
                           <div class="col-12 col-md-3 p-2 order-md-2">
                             <div>
                                 <p>Studenti online negli ultimi 30 minuti</p>
-                                <h3>125</h3>
+                                <h3 class="weight">125</h3>
                             </div>
                           </div>
                         </div>
@@ -134,25 +134,25 @@
                                 <!-- card 1 -->
                                 <div class="card w-100 my-3">
                                     <div class="card-header">
-                                        <h3>Prossime Classi</h3>
+                                        <h3 class="weight">Prossime Classi</h3>
                                     </div>
                                     <table class="table">
                                         <thead>
                                           <tr>
-                                            <th scope="col" colspan="3">Nome</th>
-                                            <th scope="col">Data inizio</th>
+                                            <th scope="col">Nome</th>
+                                            <th scope="col" class="none">Data inizio</th>
                                             <th scope="col">ROI</th>
                                             <th scope="col">Stato</th>
                                             <th scope="col">Azioni</th>
                                           </tr>
                                         </thead>
                                         <tbody>
-                                          <tr>
-                                            <th scope="row" colspan="3">
+                                          <tr class="hover">
+                                            <th scope="row">
                                                 <img src="./img/class-avatar.jpg" alt="class-avatar"> 
                                                 <span>Lezione 75</span>
                                             </th>
-                                            <td >15 Feb 2021</td>
+                                            <td class="none">15 Feb 2021</td>
                                             <td>20%</td>
                                             <td >
                                                 <button type="button" class="btn btn-success"
@@ -165,12 +165,12 @@
                                                 <button class="btn-table"><i class="fa-solid fa-trash"></i></button>
                                             </td>
                                           </tr>
-                                          <tr>
-                                            <th scope="row" colspan="3">
+                                          <tr class="hover">
+                                            <th scope="row">
                                                 <img src="./img/class-avatar.jpg" alt="class-avatar"> 
                                                 <span>Lezione 76</span>
                                             </th>
-                                            <td>16 Feb 2021</td>
+                                            <td class="none">16 Feb 2021</td>
                                             <td>20%</td>
                                             <td>
                                                 <button type="button" class="btn btn-success"
@@ -183,12 +183,12 @@
                                                 <button class="btn-table"><i class="fa-solid fa-trash"></i></button>
                                             </td>
                                           </tr>
-                                          <tr>
-                                            <th scope="row" colspan="3">
+                                          <tr class="hover">
+                                            <th scope="row">
                                                 <img src="./img/class-avatar.jpg" alt="class-avatar"> 
                                                 <span>Lezione 77</span>
                                             </th>
-                                            <td>17 Feb 2021</td>
+                                            <td class="none">17 Feb 2021</td>
                                             <td>20%</td>
                                             <td>
                                                 <button type="button" class="btn btn-warning text-white"
@@ -201,12 +201,12 @@
                                                 <button class="btn-table"><i class="fa-solid fa-trash"></i></button>
                                             </td>
                                           </tr>
-                                          <tr>
-                                            <th scope="row" colspan="3">
+                                          <tr class="hover">
+                                            <th scope="row">
                                                 <img src="./img/class-avatar.jpg" alt="class-avatar"> 
                                                 <span>Lezione 78</span>
                                             </th>
-                                            <td>18 Feb 2021</td>
+                                            <td class="none">18 Feb 2021</td>
                                             <td>20%</td>
                                             <td>
                                                 <button type="button" class="btn btn-success"
@@ -219,12 +219,12 @@
                                                 <button class="btn-table"><i class="fa-solid fa-trash"></i></button>
                                             </td>
                                           </tr>
-                                          <tr>
-                                            <th scope="row" colspan="3">
+                                          <tr class="hover">
+                                            <th scope="row">
                                                 <img src="./img/class-avatar.jpg" alt="class-avatar"> 
                                                 <span>Lezione 79</span>
                                             </th>
-                                            <td>19 Feb 2021</td>
+                                            <td class="none">19 Feb 2021</td>
                                             <td>20%</td>
                                             <td>
                                                 <button type="button" class="btn btn-danger"
@@ -237,12 +237,12 @@
                                                 <button class="btn-table"><i class="fa-solid fa-trash"></i></button>
                                             </td>
                                           </tr>
-                                          <tr>
-                                            <th scope="row" colspan="3">
+                                          <tr class="hover">
+                                            <th scope="row">
                                                 <img src="./img/class-avatar.jpg" alt="class-avatar"> 
                                                 <span>Lezione 80</span>
                                             </th>
-                                            <td>20 Feb 2021</td>
+                                            <td class="none">20 Feb 2021</td>
                                             <td>20%</td>
                                             <td>
                                                 <button type="button" class="btn btn-success"
@@ -255,12 +255,12 @@
                                                 <button class="btn-table"><i class="fa-solid fa-trash"></i></button>
                                             </td>
                                           </tr>
-                                          <tr>
-                                            <th scope="row" colspan="3">
+                                          <tr class="hover">
+                                            <th scope="row">
                                                 <img src="./img/class-avatar.jpg" alt="class-avatar"> 
                                                 <span>Lezione 81</span>
                                             </th>
-                                            <td>21 Feb 2021</td>
+                                            <td class="none">21 Feb 2021</td>
                                             <td>20%</td>
                                             <td>
                                                 <button type="button" class="btn btn-danger"
@@ -273,12 +273,12 @@
                                                 <button class="btn-table"><i class="fa-solid fa-trash"></i></button>
                                             </td>
                                           </tr>
-                                          <tr>
-                                            <th scope="row" colspan="3">
+                                          <tr class="hover">
+                                            <th scope="row">
                                                 <img src="./img/class-avatar.jpg" alt="class-avatar"> 
                                                 <span>Lezione 82</span>
                                             </th>
-                                            <td>22 Feb 2021</td>
+                                            <td class="none">22 Feb 2021</td>
                                             <td>20%</td>
                                             <td>
                                                 <button type="button" class="btn btn-success"
@@ -298,7 +298,7 @@
                                 <!-- card 2 -->
                                 <div class="card w-100 my-3">
                                     <div class="card-header">
-                                      <h3>F.A.Q.</h3>
+                                      <h3 class="weight">F.A.Q.</h3>
                                     </div>
                                     <div class="accordion" id="accordionExample">
                                     <div class="accordion-item">
@@ -345,7 +345,7 @@
                                 <!-- card 3 -->
                                 <div class="card w-100 my-3">
                                     <div class="card-header">
-                                        <h3>Todo</h3>
+                                        <h3 class="weight">Todo</h3>
                                     </div>
                                     <ul class="list-group list-group-flush">
                                         <li class="list-group-item">
