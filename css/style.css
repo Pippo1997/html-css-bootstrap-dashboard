@@ -120,6 +120,10 @@ table img{
     border-radius: 5px;
 }
 
+.width{
+    width: 250px;
+}
+
 .none{
     display: none;
 }
